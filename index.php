@@ -52,7 +52,7 @@
 			<a target="_blank" href="http://кисеяоптом.рф"><img src="works/kiseya.jpg" alt="Интернет-магазин веревочных штор"></a>
 			<a target="_blank" href="http://longray.com.ua/"><img src="works/longray.jpg" alt="Оборудование для дезинфекции"></a>
 			<a target="_blank" href="https://sbm-dental.com.ua/"><img src="works/smb-dental.png" alt="Стоматологическое оборудование"></a>
-			<a target="_blank" href="https://exprol.com.ua/"><img src="works/exprl.png" alt="Производство солнцезащитных систем"></a>
+			<a target="_blank" href="https://exprol.com.ua/"><img src="works/exprol.png" alt="Производство солнцезащитных систем"></a>
 		</div>
 	</div>
 	<div class="contacts" id="contacts">
