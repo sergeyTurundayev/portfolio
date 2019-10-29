@@ -5,7 +5,7 @@
     $email    =   $_POST['email'];
     $message  =   'Email: '. $email . "\n" . ' Сообщение: '. $_POST['message'];
     
-    $headers  = "From: 53fr.ru \r\n";
+    $headers  = "From: herokuapp \r\n";
     $headers .= "Reply-To: $email\r\n";
     
     if(mail($email_to, $subject, $message, $headers)){
