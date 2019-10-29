@@ -1,16 +1,17 @@
 <?php
-    $email_to =   'sergey.turundayev@gmail.com';
-    // $name     =   $_POST['name'];
-    $email    =   $_POST['email'];
-    $subject  =   $_POST['subject'];
-    $message  =   $_POST['message'];
-    
-    // $headers  = "From: herokuapp \r\n";
-    // $headers .= "Reply-To: $email\r\n";
-    
-    if(mail($email_to, $subject, $message)){ // , $headers
+    if(mail('sergey.turundayev@gmail.com', 'sergey.turundayev@gmail.com', 'sergey.turundayev@gmail.com')){ // , $headers
         echo 'sent';
     }else{
         echo 'failed';
     }
+    // $email_to =   ;
+    // // $name     =   $_POST['name'];
+    // $email    =   $_POST['email'];
+    // $subject  =   $_POST['subject'];
+    // $message  =   $_POST['message'];
+    
+    // $headers  = "From: herokuapp \r\n";
+    // $headers .= "Reply-To: $email\r\n";
+    
+    
 ?>
