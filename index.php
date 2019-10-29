@@ -83,6 +83,6 @@
 <script src="js/jquery.min.js"></script>
 <script src='js/scrollTo.js'></script>
 <script src="js/main.js"></script>
-<script src="js/send-message.js"></script>
+<script src="sends/send-message.js"></script>
 </body>
 </html>
