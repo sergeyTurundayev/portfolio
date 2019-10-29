@@ -57,7 +57,7 @@
 	</div>
 	<div class="contacts" id="contacts">
 		<h2>Contacts</h2>
-		<form action="index.php" method="POST">
+		<form action="index.php" method="POST" id="contact_form">
 			<span>
 				<input type="text" name='name' id="name" placeholder="Your name">
 			</span>
