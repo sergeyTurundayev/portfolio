@@ -59,15 +59,15 @@
 		<h2>Contacts</h2>
 		<form action="php/form.php" method="POST">
 			<span>
-				<input type="text" name='name' placeholder="Your name">
+				<input type="text" name='name' id="name" placeholder="Your name">
 			</span>
 			<span>
-				<input type="text" name='email' placeholder="Your email">
+				<input type="text" name='email' id="email" placeholder="Your email">
 			</span>
 			<span>
-				<input type="text" name='subject' placeholder="Subject">
+				<input type="text" name='subject' id="subject" placeholder="Subject">
 			</span>
-			<textarea name="message" name='message' placeholder="Your message"></textarea>
+			<textarea name="message" name='message' id="message" placeholder="Your message"></textarea>
 			<input type="submit" class='btn-submit' value="Send Message">
 		</form>
 		<p class="answer center"></p>
