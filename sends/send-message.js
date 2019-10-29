@@ -34,7 +34,7 @@
             }
             
              if(error == false){
-                $('.btn-submit').attr({'disabled' : 'true', 'value' : 'Отправить' });
+                $('.btn-submit').attr({'disabled' : 'true', 'value' : 'Send Message' });
                 
                  $.post("sends/send_email.php", $("#contact_form").serialize(),function(result){
                      if(result == 'sent'){
@@ -45,7 +45,7 @@
                     }else{
                         console.log(':)');
                          $('#mail_fail').fadeIn(500);
-                        $('.btn-submit').removeAttr('disabled').attr('value', 'Отправить');
+                        $('.btn-submit').removeAttr('disabled').attr('value', 'Send Message');
                     }
                 });
             }
