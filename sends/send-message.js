@@ -34,16 +34,18 @@
             }
             
              if(error == false){
-                $('#send_message').attr({'disabled' : 'true', 'value' : 'Отправить' });
+                $('.btn-submit').attr({'disabled' : 'true', 'value' : 'Отправить' });
                 
                  $.post("sends/send_email.php", $("#contact_form").serialize(),function(result){
                      if(result == 'sent'){
+                        console.log(':D');
                           $('#cf_submit_p').remove();
                           $('#mail_success').fadeIn(500);
-                          $('#send_message').addClass('hidden');
+                          $('.btn-submit').addClass('hidden').fadeOut(500);
                     }else{
+                        console.log(':)');
                          $('#mail_fail').fadeIn(500);
-                        $('#send_message').removeAttr('disabled').attr('value', 'Отправить');
+                        $('.btn-submit').removeAttr('disabled').attr('value', 'Отправить');
                     }
                 });
             }
