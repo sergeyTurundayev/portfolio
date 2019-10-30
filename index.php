@@ -53,6 +53,8 @@
 			<a target="_blank" href="http://longray.com.ua/"><img src="works/longray.jpg" alt="Оборудование для дезинфекции"></a>
 			<a target="_blank" href="https://sbm-dental.com.ua/"><img src="works/smb-dental.png" alt="Стоматологическое оборудование"></a>
 			<a target="_blank" href="https://exprol.com.ua/"><img src="works/exprol.png" alt="Производство солнцезащитных систем"></a>
+			<a target="_blank" href="http://53fr.ru"><img src="works/work5.png" alt="Футеровочные решения"></a>
+			<a target="_blank" href="http://unityproduction.in.ua/"><img src="works/work6.png" alt="Unity Production"></a>
 		</div>
 	</div>
 	<div class="contacts" id="contacts">
