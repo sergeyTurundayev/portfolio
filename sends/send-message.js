@@ -38,12 +38,10 @@
                 
                  $.post("sends/send_email.php", $("#contact_form").serialize(),function(result){
                      if(result == 'sent'){
-                        console.log(':D');
                           $('#cf_submit_p').remove();
                           $('#mail_success').fadeIn(500);
                           $('.btn-submit').addClass('hidden').fadeOut(500);
                     }else{
-                        console.log(':)');
                          $('#mail_fail').fadeIn(500);
                         $('.btn-submit').removeAttr('disabled').attr('value', 'Send Message');
                     }

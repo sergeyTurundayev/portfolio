@@ -180,15 +180,31 @@ h1{
 :-moz-placeholder           {color:#fedb43;}/* Firefox 18- */
 :-ms-input-placeholder      {color:#fedb43;}
 
-.error::-webkit-input-placeholder {color:#f33;}
-.error::-moz-placeholder          {color:#f33;}/* Firefox 19+ */
-.error:-moz-placeholder           {color:#f33;}/* Firefox 18- */
-.error:-ms-input-placeholder      {color:#f33;}
+.text-error::-webkit-input-placeholder{color: rgb(255,60,60);}
+.text-error::-moz-placeholder{color: rgb(255,60,60);}
+.text-error:-moz-placeholder{color: rgb(255,60,60);}
+.text-error:-ms-input-placeholder{color: rgb(255,60,60);}
 
 :focus::-webkit-input-placeholder {color: transparent}
 :focus::-moz-placeholder          {color: transparent}
 :focus:-moz-placeholder           {color: transparent}
 :focus:-ms-input-placeholder      {color: transparent}
+
+.error{display: none;}
+.success{
+	text-align: center;
+	position: relative;
+	display: none;
+	width: 100%;
+	cursor: pointer;
+	-webkit-transition: all 0.32s;
+	   -moz-transition: all 0.32s;
+	    -ms-transition: all 0.32s;
+	     -o-transition: all 0.32s;
+	        transition: all 0.32s;
+	line-height: 29px;
+}
+
 .back{
 	display: block;
 	padding: 18px;
