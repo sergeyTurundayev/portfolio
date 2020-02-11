@@ -19,6 +19,7 @@ $( document ).ready(function() {
     $('form').submit( function(){
 
         var answerFun = function(data){
+            console.log( data );
         if( data == 'true' ){
             $('.answer').fadeIn().text( 'Your message has been sent successfully' );
         } else {
