@@ -2,6 +2,8 @@
 
 mail('sergey.turundayev@gmail.com', 'subject', 'message');
 
-echo "sent";
+echo "true";
+
+exit();
 
 ?>

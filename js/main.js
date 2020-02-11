@@ -49,7 +49,7 @@ $( document ).ready(function() {
                 type: 'POST',
                 data: ({name: name.val(), email: email.val(), subject: subject.val(), message: message.val()}),
                 dataType: 'html',
-                success: answerFun
+                success: answerFun,
             });
         }
 
