@@ -37,6 +37,7 @@
                 $('.btn-submit').attr({'disabled' : 'true', 'value' : 'Send Message' });
                 
                  $.post("sends/send_email.php", $("#contact_form").serialize(),function(result){
+                    console.log( result );
                      if(result == 'sent'){
                           $('#cf_submit_p').remove();
                           $('#mail_success').fadeIn(500);
