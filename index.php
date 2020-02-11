@@ -40,8 +40,8 @@
 					<h3>Info</h3>
 					<ul>
 						<li><strong>Fullname:</strong> Sergey Turundayev</li>
-						<li><strong>Phone:</strong> +38 (098) 396-82-28</li>
-						<li><strong>Email:</strong> sergey.turundayev@gmail.com</li>
+						<li><strong>Phone:</strong> <a href="tel:+380983968228">+380983968228</a></li>
+						<li><strong>Email:</strong> <a href="mailto:sergey.turundayev@gmail.com">sergey.turundayev@gmail.com</a></li>
 					</ul>
 				</div>
 				<div class="col-50">
