@@ -190,7 +190,10 @@ h1{
 :focus:-moz-placeholder           {color: transparent}
 :focus:-ms-input-placeholder      {color: transparent}
 
-.error{display: none;}
+.error{
+	display: none;
+	flex: 1 1 100%;
+}
 .success{
 	text-align: center;
 	position: relative;
