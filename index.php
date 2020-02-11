@@ -1,6 +1,3 @@
-<?php
-	mail('sergey.turundayev@gmail.com', 'subject', 'message');
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
