@@ -1,4 +1,7 @@
 <?php
+    
+    mail('sergey.turundayev@gmail.com', 'subject', 'message');
+
     $email_to =   'sergey.turundayev@gmail.com'; // 7657789@gmail.com
     $name     =   $_POST['name'];
     $email    =   $_POST['email'];
