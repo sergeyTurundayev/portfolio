@@ -1,6 +1,5 @@
 $( document ).ready(function() {
 
-
     $('.mobile-button, .main-nav a').click(function(){
         
         $('.main-nav').fadeToggle();
