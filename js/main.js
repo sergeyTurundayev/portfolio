@@ -45,7 +45,7 @@ $( document ).ready(function() {
             return false;
         } else {
             $.ajax ({
-                url: 'sends/form.php',
+                url: '../sends/form.php',
                 type: 'POST',
                 data: ({name: name.val(), email: email.val(), subject: subject.val(), message: message.val()}),
                 dataType: 'html',
