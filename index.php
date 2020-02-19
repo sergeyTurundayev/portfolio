@@ -85,7 +85,7 @@
 				<span>
 					<input type="text" name='subject' id="subject" placeholder="Subject">
 				</span>
-				<textarea name="message" name='message' id="message" placeholder="Your message"></textarea>
+				<textarea name="message" id="message" placeholder="Your message"></textarea>
 				<div id='mail_success' class='success'>Message sent</div>
 				<div id='mail_fail' class='error'>Message not sent</div>
 				<input type="submit" class='btn-submit' value="Send Message">
