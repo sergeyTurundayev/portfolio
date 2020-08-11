@@ -118,7 +118,6 @@ h1{
 }
 .about .col-50{
 	flex: 1 1 198px;
-	margin: 0 0 18px;
 }
 .about h3{
 	font: bold 29px/29px Helvetica, Arial, sans-serif;
@@ -136,7 +135,10 @@ h1{
 	background: #fedb43;
 	padding: 29px;
 }
-.contacts form{
+.contacts-list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -147,74 +149,36 @@ h1{
 	-ms-flex-wrap: wrap;
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin: 0 -9px;
+	justify-content: space-between;
 }
-.contacts span{
-	flex: 1 1 33.33%;
-	padding: 0 8px;
+.contacts-list li{
+	font-size: 47px;
+	line-height: 47px;
+	flex: 1 1 47px;
 	margin: 0 0 29px;
 }
-.contacts input,
-.contacts textarea{
-	background: #eac112;
-	border: none;
-	width: 100%;
-	padding: 11px;
-}
-.contacts textarea{
-	flex: 1 1 100%;
-	margin: 0 9px 18px;
-	height: 122px;
-	resize: none;
-}
-.contacts .btn-submit{
-	flex: 0 1;
-	width: auto;
-	margin: 0 0 0 7px;
-	background: #000;
-	color: #fff;
-	text-transform: uppercase;
-	border: 1px solid #000;
-	cursor: pointer;
-	transition: all 0.6s;
-}
-.contacts .btn-submit:hover{
-	background: none;
+.contacts-list a{
 	color: #000;
-}
-::-webkit-input-placeholder {color:#fedb43;}
-::-moz-placeholder          {color:#fedb43;}/* Firefox 19+ */
-:-moz-placeholder           {color:#fedb43;}/* Firefox 18- */
-:-ms-input-placeholder      {color:#fedb43;}
-
-.text-error::-webkit-input-placeholder{color: rgb(255,60,60);}
-.text-error::-moz-placeholder{color: rgb(255,60,60);}
-.text-error:-moz-placeholder{color: rgb(255,60,60);}
-.text-error:-ms-input-placeholder{color: rgb(255,60,60);}
-
-:focus::-webkit-input-placeholder {color: transparent}
-:focus::-moz-placeholder          {color: transparent}
-:focus:-moz-placeholder           {color: transparent}
-:focus:-ms-input-placeholder      {color: transparent}
-
-.error{
-	display: none;
-	flex: 1 1 100%;
-}
-.success{
+	margin: 0 auto;
+	display: block;
+	width: 47px;
+	height: 47px;
 	text-align: center;
-	position: relative;
-	display: none;
-	width: 100%;
-	cursor: pointer;
-	-webkit-transition: all 0.32s;
-	   -moz-transition: all 0.32s;
-	    -ms-transition: all 0.32s;
-	     -o-transition: all 0.32s;
-	        transition: all 0.32s;
-	line-height: 29px;
+	background: #fff;
+	border-radius: 50%;
 }
-
+.contacts-list .telegram{
+	color: #0088cc;
+}
+.contacts-list .whatsapp{
+	color: #4fce5d;
+}
+.contacts-list .viber{
+	color: #59267c;
+}
+.contacts-list .skype{
+	color: #00aff0;
+}
 .back{
 	display: block;
 	padding: 18px;
@@ -306,6 +270,10 @@ h1{
 	}
 	.contacts span{
 		flex: 1 1 100%;
+	}
+	.terminal{
+		float: none;
+		margin: 0 0 29px;
 	}
 }
 @media (max-width: 480px){
