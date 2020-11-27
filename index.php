@@ -79,7 +79,8 @@
 			<ul class="contacts-list">
 				<li>
 					<a href="https://telegram.me/SergeyCoder" class="telegram"><i class="fab fa-telegram-plane"></i>
-					</a></li>
+					</a>
+				</li>
 				<li>
 					<a href="https://wa.me/380983968228" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
 				</li>
