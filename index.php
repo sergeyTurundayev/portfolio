@@ -72,6 +72,7 @@
 				<a target="_blank" href="http://kurban.center/"><img src="works/kurban.png" alt="Lamb on Kurban"></a>
 				<a target="_blank" href="http://www.dumk.org/"><img src="works/dumk.png" alt="Spiritual administration of Muslims of Crimea"></a>
 				<a target="_blank" href="http://islam-tours.com/"><img src="works/history.jpg" alt="History of Turkey"></a>
+				<a target="_blank" href="https://dandubai.ru/"><img src="works/dubai.jpg" alt="History of Turkey"></a>
 			</div>
 		</div>
 		<div class="contacts" id="contacts">
