@@ -120,7 +120,7 @@ h1 {
   background: #fff;
   border-radius: 50%;
 }
-.contacts-list .telegram {
+.contacts-list .linkedin {
   color: #0088cc;
 }
 .contacts-list .whatsapp {
@@ -129,7 +129,7 @@ h1 {
 .contacts-list .viber {
   color: #59267c;
 }
-.contacts-list .skype {
+.contacts-list .telegram {
   color: #00aff0;
 }
 @media (max-width: 480px) {
