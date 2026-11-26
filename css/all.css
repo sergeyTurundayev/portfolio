@@ -120,6 +120,12 @@ h1 {
   background: #fff;
   border-radius: 50%;
 }
+.contact-icon {
+  width: 29px;
+  height: 29px;
+  vertical-align: middle;
+  fill: currentColor;
+}
 .contacts-list .linkedin {
   color: #0088cc;
 }
